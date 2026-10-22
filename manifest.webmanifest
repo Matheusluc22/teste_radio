@@ -1,0 +1,24 @@
+{
+  "name": "UniFit - Treino Inteligente por IA",
+  "short_name": "UniFit",
+  "description": "Plataforma de treino de musculação de alta performance impulsionada por inteligência artificial.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b0b0b",
+  "theme_color": "#22c55e",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2964/2964514.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2964/2964514.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
