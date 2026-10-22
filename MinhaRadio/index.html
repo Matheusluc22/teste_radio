@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Rádio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MINHA RÁDIO</h1>
+    <p>Sua música, sua companhia.</p>
+  </header>
+
+  <main>
+    <div class="radio">
+      <div class="logo">R</div>
+
+      <h2>Estamos preparando a transmissão</h2>
+      <p id="status">Rádio pronta para conectar</p>
+
+      <button id="playBtn">▶ Ouvir rádio</button>
+
+      <div class="volume">
+        <label for="volume">Volume</label>
+        <input id="volume" type="range"
+          min="0" max="1" step="0.01" value="0.8">
+      </div>
+
+      <audio id="audio" preload="none"></audio>
+    </div>
+  </main>
+
+  <footer>Minha Rádio © 2026</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
